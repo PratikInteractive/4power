@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>4Power</title>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
+
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
@@ -77,7 +83,38 @@
       </div>
     </header>
 
-    <!-- Section -->
+    <!-- Section Spotlight -->
+    <section class="spotlight">
+      <div class="spotlight-container">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="single-slide">
+                <img src="./assets/banner-desktop.jpg" alt="" class="img-fluid">
+                <div class="container">
+                  <h1 class="spot-heading">Reach the Next Level</h1>
+                  <p class="spot-descp">Data Driven Revolutionary Makeover?</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="single-slide">
+
+                <img src="./assets/banner-dummy.jpg" alt="" class="img-fluid">
+                <div class="container">
+                  <h1 class="spot-heading">Transforming Enterprises</br>
+                    With Up to Date</h1>
+                  <p class="spot-descp">Data Driven Revolutionary Makeover?</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Section What We Do -->
     <section>
       <div class="section-header text-center">
         <h2 class="heading font-reg">What We Do</h2>
@@ -274,8 +311,24 @@
       </div>
     </section>
 
+    <!-- Section About us -->
+    <section class="about-us">
+      <video autoplay muted loop playsinline class="background-video">
+        <source src="./assets/bg-video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+      <div class="container abt-container">
+          <div class="section-header text-center">
+              <h2 class="heading font-reg">About Us</h2>
+              <p>
+                  Since launching on 04/04/04, 4POWER’s singular mission has been to empower your business with innovative digital technologies. These tools are designed to help you consistently meet and exceed the dynamic expectations of your customers. Our approach is data-centric, enabling us to garner valuable insights at each point of the customer journey, converting potential challenges into opportunities for growth. Our solutions are crafted to enhance efficiency, boost profitability, and minimize costs. We also offer a flexible, risk-free subscription model that requires no capital expenditure and no long-term commitment, ensuring ease of adoption and financial flexibility. Based in Dubai, United Arab Emirates, 4POWER boasts a presence in 12 countries, serving a diverse range of organizations.
+              </p>
+          </div>
+      </div>
+  </section>
+  
     <!-- Section Who we Serve -->
-    <section class="lg-blue">
+    <section>
       <div class="section-header text-center">
         <h2 class="heading font-reg">Who We Serve</h2>
         <p>
@@ -316,7 +369,7 @@
     </section>
 
     <!-- Section Contact Us -->
-    <section>
+    <section class="lg-blue">
       <div class="section-header text-center">
         <h2 class="heading font-reg">Contact Us</h2>
         <p>
@@ -346,6 +399,37 @@
       </div>
     </section>
 
+    <!-- Carousel Section -->
+    <section class="companySec">
+      <div class="company">
+        <div class="swiper companies">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./assets/co-logo.png.webp" alt="" class="img-fluid">
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/Fujairah.png.webp" alt="" class="img-fluid">
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/nbf.png.webp" alt="" class="img-fluid">
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/Sharaf-exchange.png.webp" alt="" class="img-fluid">
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/standard-chartered.png.webp" alt="" class="img-fluid">
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/urdu-logo.png.webp" alt="" class="img-fluid">
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/bank.png.webp" alt="" class="img-fluid">
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- Footer -->
     <footer>
         <div class="container footer-container">
@@ -361,8 +445,16 @@
                 </div>
             </div>
             <div class="ft-navigations">
+              <ul>
+                <li class="ft-nav-title">SUPPORT CENTRE</li>
+                  <li>Resources</li>
+                  <li>About</li>
+                  <li>Contact</li>
+              </ul>
+          </div>
+            <div class="ft-navigations">
                 <ul>
-                    <li class="ft-nav-title">SUPPORT CENTRE</li>
+                    <li class="ft-nav-title">LINKS</li>
                     <li>support@4power.biz</li>
                     <li>sales@4power.biz</li>
                     <li>+971 4 889 5435</li>
@@ -377,9 +469,12 @@
             </div>
             
         </div>
+        <div class="container ft-container-cpy">
+            <p class="ft-cpy-text text-center">© All Copyrights Reserved</p>
+        </div>
     </footer>
   </body>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="./js/main.js"></script>
 </html>
